@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS User Manager | Farhodjon</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js//script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <header>
+            <h2>Менеджер пользователей</h2>
+            <p class="subtitle">Проект курса OpenClassrooms</p>
+        </header>
+
+        <div class="form-group">
+            <input type="text" id="nameInput" placeholder="Имя (мин. 3 символа)">
+            <input type="number" id="ageInput" placeholder="Возраст (18+)">
+            <div id="errorBox" class="error"></div>
+            <button id="addBtn">Добавить пользователя</button>
+        </div>
+
+        <div class="list-section">
+            <div class="list-header">
+                <h3>Список активных пользователей</h3>
+                <span id="userCount">0</span>
+            </div>
+            <ul id="userList">
+                </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
